@@ -184,11 +184,15 @@ h1 { font-size: clamp(3.25rem, 9vw, 7rem); line-height: 0.95; letter-spacing: -0
 .arch img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .arch-initials { font-size: clamp(4rem, 9vw, 7rem); letter-spacing: -0.05em; }
 
-.arch figcaption {
+/* "Hi, I'm Winnie" pill: jumps to About me */
+.arch-link {
   position: absolute; bottom: 1rem; left: 50%; transform: translateX(-50%); z-index: 1;
   padding: 0.45rem 0.9rem; border: 1px solid var(--ink); border-radius: 999px; background: var(--surface);
+  color: var(--ink); text-decoration: none;
+  transition: background 0.15s, color 0.15s;
   font-family: var(--mono); font-size: 0.6875rem; text-transform: uppercase; letter-spacing: 0.08em; white-space: nowrap;
 }
+.arch-link:hover { background: var(--ink); color: var(--bg); }
 
 /* ---------- Hairline grid cells (stats, skills) ---------- */
 .grid-cells {
