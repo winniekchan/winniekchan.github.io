@@ -14,7 +14,7 @@
   --max: 1200px;
   --font: "Inter Tight", "Helvetica Neue", Arial, system-ui, sans-serif;
   --mono: "DM Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
-  --ornate: "Federant", Georgia, "Times New Roman", serif;   /* logo only */
+  --ornate: "Elsie Swash Caps", Georgia, "Times New Roman", serif;   /* logo only */
   --turquoise: #1a9ad0;                                      /* logo only */
   color-scheme: light;
 }
@@ -147,7 +147,7 @@ ul { margin: 0; }
 .flourish .dot { fill: currentColor; stroke: none; }
 .wordmark-name {
   position: relative;
-  font-size: 0.95em; text-transform: uppercase; letter-spacing: 0.02em; line-height: 1;
+  font-size: 1.1em; text-transform: uppercase; letter-spacing: 0.02em; line-height: 1;
   white-space: nowrap;
 }
 .wordmark-name b { font-weight: inherit; font-size: 1.32em; }
