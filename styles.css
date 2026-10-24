@@ -151,7 +151,7 @@ ul { margin: 0; }
   white-space: nowrap;
 }
 .wordmark-name b { font-weight: inherit; font-size: 1.32em; }
-.wordmark-sub { font-size: 0.5625em; text-transform: uppercase; letter-spacing: 0.16em; line-height: 1; }
+.wordmark-sub { font-size: 0.75em; text-transform: uppercase; letter-spacing: 0.12em; line-height: 1; }
 
 /* ---------- Hero ---------- */
 .hero {
